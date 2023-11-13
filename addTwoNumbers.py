@@ -20,7 +20,9 @@ def list_to_LL(arr):
 
 
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(self,
+                      l1: Optional[ListNode],
+                      l2: Optional[ListNode]) -> Optional[ListNode]:
         dummyHead = ListNode(0)
         tail = dummyHead
         carry = 0
